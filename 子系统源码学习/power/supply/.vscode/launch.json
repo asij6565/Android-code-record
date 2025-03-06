@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "u:/a14_tmp/T86X/mt6789_T86X_A14_TYD_20240202/ANDROID.VND/kernel-5.10/drivers/power/supply",
+      "program": "u:/a14_tmp/T86X/mt6789_T86X_A14_TYD_20240202/ANDROID.VND/kernel-5.10/drivers/power/supply/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
